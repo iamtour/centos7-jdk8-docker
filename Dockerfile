@@ -27,6 +27,6 @@ RUN ln -s /usr/share/zoneinfo/Hongkong /etc/localtime
 RUN ln -s /opt/lionfin/start.sh /etc/profile.d/start.sh
 
 #java ports
-EXPOSE 8080 8081 8787
+EXPOSE 8090 8091 8787
 
 VOLUME ["/opt/lionfin"]
